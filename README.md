@@ -2,5 +2,5 @@
 
 ## Integrantes
 
-  - 
+  - Laureano Enrique
   - Carlos Nahuel Lazarte
