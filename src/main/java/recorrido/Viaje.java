@@ -9,7 +9,6 @@ import utils.adapterApi;
 import utils.estadoViaje;
 import utils.funcionesUtiles;
 
-import java.io.IOException;
 import java.util.List;
 
 import static utils.estadoViaje.INCIDENTE;
@@ -26,6 +25,9 @@ public class Viaje {
     public estadoViaje estado;
     private adapterApi apiGoogle= new adapterApi();
 
+    public void setEstado(estadoViaje estado) {
+        this.estado = estado;
+    }
 
 
     public Viaje(List<Cuidador> cuidadores, Direccion origen, Direccion destino, Viajero viajero) {

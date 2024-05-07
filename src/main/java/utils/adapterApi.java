@@ -20,6 +20,7 @@ public class adapterApi {
     public Distance distancia=null;
     public String tiempo=null;
 
+
     public static GeoApiContext buildearApi() {
         String apiKey = "AIzaSyBq1zVwI7EPVl6BXQI8vU4WH5q4n1fjOgc"; // hardcodeo para que no haya problemas entre distintos entornos
         // Lo correcto seria leer la apikey de un archivo
@@ -65,6 +66,14 @@ public class adapterApi {
         this.tiempo=tiempoP;
 
 
+    }
+
+    public String getTiempo() {
+        return tiempo;
+    }
+
+    public Distance getDistancia() {
+        return distancia;
     }
 }
 
